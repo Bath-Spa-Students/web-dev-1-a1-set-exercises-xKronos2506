@@ -1,0 +1,139 @@
+/*body*/
+body {
+  background-color: #D9B371;
+}
+/*inner flexbox + bg color*/
+.inner {
+  background-color: #D9B371;
+  /*set it to black if everything is done*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+/*title part*/
+.title-block {
+  background-color: #322D24;
+  width: 200px;
+  /* Adjust width as needed */
+  height: 60px;
+  margin: auto;
+  /* Center horizontally */
+  text-align: center;
+  /* Align text content to the center */
+}
+
+.title-text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17.5px;
+  padding: 5%;
+  margin: 0%;
+}
+
+/*navigation bar*/
+.navbar {
+  background-color: #9E8352;
+  border: #322D24;
+  width: 30pc;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.navbar a {
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*title and food image box*/
+.introduction {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #645334;
+  width: 700px;
+  text-align: center;
+}
+
+.intro-title {
+  color: #E1CCA2;
+  text-align: center;
+  font-size: 75px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 75%;   
+}
+
+/*image size:*/
+img {
+  width: 50%;
+  height: 359.7px;
+}
+
+/*title and picture box*/
+.two-bar {
+  display: flex /*to put both the title box and image box side-to-side (row)*/
+}
+
+
+/*decription section box*/
+.description {
+  background-color: #332917;
+  display: flex;
+  justify-content: center;  
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 20%;
+  margin: 0.5% 0;
+}
+/*description adjustments (size, distance, padding)*/
+.desc.description {
+  color: #E1CCA2;
+  display: flex;  
+  text-align: center;
+
+}
+
+/*description font adjustment*/
+.desc {
+  font-size: 20px;
+}
+
+/*ingredients and materials section box*/
+
+.box {
+  background-color: #332917;
+}
+
+
+/*instructions section box*/
+.instruction {
+  background-color: #332917;
+}
+
+/*title and .description*/
+
+.title {
+  color: #A98951;
+  font-size: 30px;
+}
+
+.desc {
+  color: #E2C38A;
+}
+
+/*additional flexbox adjustments*/
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
