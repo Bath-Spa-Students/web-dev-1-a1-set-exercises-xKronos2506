@@ -1,0 +1,60 @@
+/*MAIN BODY*/
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+.title {
+    text-align: center;
+}
+/*title paragraph*/
+.title-par {
+    text-align: justify;
+}
+
+/*heading tags*/
+.headings {
+    text-align: center;
+
+}
+
+.division-tag {
+    border: 10px;
+    background-color: blue;
+    color: aliceblue;
+    width: 50%;
+}
+
+/*css divs*/
+.css-bg-color {
+  background-color: red;
+}
+.css-text-color {
+  color: blue;
+}
+
+.css-text-align {
+  text-align: center;
+}
+
+.css-font-size {
+  font-size: 20px;
+}
+
+.css-font-family {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.css-width {
+  width: 400px;
+  background-color: blue;
+}
+
+.css-margin {
+  margin: 10px;
+  background-color: blue;
+}
+.css-height {
+  height: 150px;
+  background-color: blue;
+}
+
