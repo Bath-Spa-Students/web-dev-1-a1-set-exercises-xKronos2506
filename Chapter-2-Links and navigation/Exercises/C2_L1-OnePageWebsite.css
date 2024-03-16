@@ -1,0 +1,64 @@
+/*navigation bar*/
+.navbar {
+    background-color: gray;
+    border-color: wheat;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin: 3%;
+    font-size: 20px;
+}
+
+.fandom-link a{
+    color: white;
+    text-decoration: line;
+}
+
+/*border */
+
+div {
+    border: 5%;
+    border-color: white;
+    border-style: solid;
+    margin: 2%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}   
+
+/*meter color*/
+    /*meter background color for the unnocupied rating*/
+  meter::-webkit-meter-bar {
+    background: gray;
+    border-radius: 5px;
+  }
+ /*meter color for the occupied rating within*/
+meter::-webkit-meter-optimum-value,
+meter::-webkit-meter-suboptimum-value,
+meter::-webkit-meter-even-less-good-value {
+  background: yellow; 
+  border-radius: 5px;
+} 
+
+/*star coloring*/
+ /*star rating code output*/
+.star-rating {
+    unicode-bidi: bidi-override; /*overriding the unicode algorithm to ignore the defualt alogrithm by the vsc*/
+    color: yellow; /*stars color*/
+    font-size: 20px; /*star size*/
+    margin: 0; /*inplements both margin and padding to default, but with no value*/
+    padding: 0;
+    display: inline-block; /*displays the stars to be beside each other*/
+}
+.star-rating > span {
+    display: inline-block; /*displays the stars individually to be beside each other*/
+    position: relative; /*positions each stars to be lined equally as how the first span is lined.*/
+    width: 1em; /*the width of the stars */
+}
