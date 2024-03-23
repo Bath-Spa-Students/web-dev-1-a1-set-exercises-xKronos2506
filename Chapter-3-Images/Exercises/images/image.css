@@ -1,0 +1,47 @@
+body { /*body css*/
+    font-family: Arial, sans-serif; /*change font family*/
+    margin: 0; /*define margin and padding to space out image*/
+    padding: 0;
+    display: flex; /*initiate flexbox display*/
+    justify-content: center; /*place the flexbox content center of the page*/
+    align-items: center; /*aligning the content in the center horizontally*/
+    height: 100vh; /*height for the sibling of the body tag*/
+    position: relative; /*setting position to the normal appearance*/
+    background-color: #afafaf;/*change background color of the body*/
+}
+/*flexbox div css*/
+.flexbox {
+    display: flex; /*change display for flex within the div*/
+    justify-content: center; /*place the flexbox content center of the page*/
+    align-items: center; /*aligning the content in the center horizontally*/
+}
+
+.flexbox > div {
+    margin: 0 10px; /*space out the images outside*/
+}
+
+figure {
+    margin: 0; /*normal spacing within the img and text*/
+}
+/*img css*/
+img {
+    width: 450px; /*adjusting the width of the image*/
+    height: auto; /*automation of the height of the images */
+    display: block; /*gives diplay of block*/
+    border-radius: 8px; /*makes the sides more curvature*/
+}
+/*figcaption css*/
+figcaption {
+    display: block; /*gives display of block to be inlined vertically*/
+    text-align: center; /*centers the text underneath of the image*/
+    color: black; /*changes font color*/
+}
+
+/*heading tag css*/
+h1 {
+    position: absolute; /*positions the tag to its original place (the top)*/
+    top: 0; /*gives a set amount of verical position on the header tag*/
+    text-align: center; /*centers the text on the page*/
+    margin: 10px; /*gives space outside the header tag*/
+       
+}
