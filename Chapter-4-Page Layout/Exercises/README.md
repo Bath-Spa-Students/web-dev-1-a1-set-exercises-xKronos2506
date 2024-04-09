@@ -12,7 +12,7 @@ Using the website reference image below, code this website (focussing on proper 
 - Header;
 - Navigation menu;
 - The main "Welcome" content;
-- "Line Up" content, including two square images underneath the text;
+- "Line Up" content, including two square images underneath the text;   
 - Footer;
 - index.html and style.css files.
 

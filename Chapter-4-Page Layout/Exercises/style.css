@@ -1,0 +1,159 @@
+/*html and body css*/
+html,body{
+    /*adjusts the padding and margin to adjust the default margin*/
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /*to prevent the webpage from being scrolled*/
+}
+
+/*header*/
+header{
+    background-color: #17072b; /*bg color for the header*/
+    text-align: center; /*centers the texts on the center*/
+    color: white; /*change font color*/
+    /*adjusts padding and margin within the header class to remove the default margin*/
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    /*further adjustment to margin to remove the default margin*/
+    margin: -25px;
+}
+
+.title{
+    text-decoration: underline; /*gives an underline within the class text*/
+    padding: 10px; /*adjusts the padding within the title class*/
+}
+
+
+
+/*fonts*/
+h1, h2{
+    /*adjusts the heading fonts, with its weight and text decoration*/
+    font-family: Tahoma;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+p{
+    /*adjusts the paragraph tag fonts, weight and font size*/
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 20px;
+}
+/*individual font change*/
+
+/*changes specific heading to different font size*/
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+
+/*navigation bar css*/
+.navbar a{
+    /*removes the text decoration within the nav bar and changing font color*/
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    /*removes the text decoration within the nav bar and changing font color*/
+    text-decoration: none;
+    color: white;
+}
+
+    
+ul{
+    /*removes the list style and changes font size*/
+    list-style-type: none;
+    font-size: large;
+}
+
+li{
+    /*adjusts font family with its weight*/
+    font-family: Tahoma;
+    font-weight: 700;
+
+    display: inline; /*gives display to line the text side to side*/
+    font-size: larger;/*adjusts font size*/
+    padding: 10px; /*adjusts padding on all sides*/
+}
+
+/*main css*/
+.main{
+    /*sets bg color of the main tag*/
+    background-color: white;
+}
+
+.article{
+    float: left; /*sets the class to the left side*/
+    width: 60%; /*adjusts the width (to fit the other content to the right)*/
+    margin-right: 2%; /*adjusts margin on the right*/
+    padding-left: 2%; /*adjusts the margin on the left*/
+    box-sizing: border-box; /*declares the element to be boxed with its autoamtic preset*/
+}
+
+/*section css*/
+.section {
+    float: right; /*sets the content to the right side*/
+    width: auto; /*adjusts the width automatically (derived from the float:left: code in article);*/
+    height: max-content; /*adjusts height to its maximum content provided*/
+    padding: 10px; /*adjusts padding on all sides within the element*/
+    box-sizing: border-box; /*declares the element to be boxed with its autoamtic preset*/
+}
+
+
+section{ 
+    background-color: #172d67; /*adjusts the background color of the section*/
+    color: white; /*adjusts section font color */
+    margin-top: 10px; /*adjusts margin on the outside of the border box on the top*/
+    height: 500px; /*adjusts height accordingly (max-content code)*/
+
+}
+
+.section > section h2,p{ /*adjusting the parent of the heading 2 and paragraph element within the section*/
+    margin-left: 20px; /*adjusts the internal margin*/
+}
+
+/*footer css*/
+footer{
+    /*adjusts the positioning of the footer to be at the bottom*/
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    position: absolute; /*gives the element to be adjusted accordingly to the css adjustmennt*/
+    text-align: center; /*centers the text widthin the footer*/
+    background-color: #8c15e9; /*sets the bg color*/
+    color: white; /*sets text color of footer*/
+    height: auto; /*adjusts the height accordingly*/
+}
+
+/*img css*/
+.left-img{
+    /*adjusts the section image accordingly*/
+    width: 100%;
+    height: 335px;
+}
+
+
+.img-left,
+.img-right {
+    display: inline-block; /*adjusts image to be displays beside each other on the same line*/
+    padding: 9px;
+}
+
+.img-left img,
+.img-right img {
+    max-width: 100%; /*adjusts image maximum width*/
+    height: auto; /*sets height to automatic*/
+    
+}
+
+
