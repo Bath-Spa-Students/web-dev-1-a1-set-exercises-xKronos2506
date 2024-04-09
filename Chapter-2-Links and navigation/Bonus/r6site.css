@@ -1,0 +1,55 @@
+/*nav bar*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: medium;
+}
+  
+/*all website css*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: auto;
+    overflow-y: auto;
+}
+
+/*main page css*/
+
+
+/*storyline css*/
+.flexbox-main {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Adjust as needed */
+}
+
+.left-text {
+    /* Position the left text above */
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    top: 25%;
+
+}
+
+.flexbox-side {
+    /* Position the flexbox side below */
+    margin-top: auto; /* Push it to the bottom */
+}
