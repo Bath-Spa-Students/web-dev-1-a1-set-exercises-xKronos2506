@@ -1,0 +1,89 @@
+/*body css*/
+body, html {
+    height: 100%; /*sets height to 100%*/
+    margin: 0; /*sets default margin to 0*/
+    display: flex; /*sets all of the siblings to flex display*/
+    justify-content: center; /*places any content under the tag of this css to center */
+    align-items: center;
+    background-color: black;
+}
+/*petrol calc div block css (the border and padding)*/
+.petrol-calc {
+    background-color: white;
+    border: 1px solid black; /*sets the border*/
+    padding: 20px; /*sets the padding space*/
+    border-radius: 5px; /*to give round edges*/
+    align-items: center; /*aligns items to the center horizontally*/
+}
+/*header tag css*/
+header{
+    text-align: center; /*aligns header tag to the center*/
+}
+
+/*inner border css */
+.inner-border{
+    background-color: #EA3B35; /*sets the bg color*/
+    padding: 20px; /*gives the inner div inside space*/
+    border: 1px solid black; /*sets the border*/
+    border-radius: 2px; /*gives the border the round edges*/
+    margin-bottom: 10%; /*sets the bottom margin within the inner border*/
+}
+
+/*gas group css*/
+.gas-calc{
+    display: flex; /*sets display to flex (for alignmnent purposes)*/
+    flex-direction: column; /*sets the flex direction to column*/
+    margin-bottom: 10px; /*sets the bottom margin*/
+}
+
+.gas-calc label {
+    margin-bottom: 10px; /*sets the bottom margin of the label tag (alignment purposes)*/
+    text-align: center; /*centers the text*/
+}
+
+.gas-calc input {
+    padding: 1px; /*gives padding to the input tags within the div*/
+    width: auto; /*automates the width*/
+}
+
+/*equals css*/
+
+.equals{
+    text-align: center; /*centers the text*/
+    font-size: 30px; /*adjusts its font size*/
+    margin: -1px; /*sets the margin to align within the center*/
+    color: white; /*sets font color*/
+}
+
+/*total cost button and text css*/
+
+.total-cost{
+    display: flex; /*sets diplay to flex*/
+    flex-direction: column; /*sets flex direciton*/
+    align-items: center; /*align items to center*/
+    justify-content: center; /*aligns content to the center*/
+}
+
+/*button adjustments*/
+button{
+    background-color: red; /*sets bg color*/
+    border: none; /*removes border*/
+    text-align: center; /*align text to center*/
+    display: inline-block; /*displays the button within the line*/
+    cursor: pointer; /*sets the cursor to pointer when it is hovered over*/
+    padding: 5px; /*padding adjustments*/
+    border-radius: 6px; /*sets border radius (round edges on the sides)*/
+}
+
+button:hover { /*button hover*/
+    color: gray; /*sets bg color when the mouse hovers over the button*/
+}
+
+button:active{
+    color: red; /*sets the bg when the button is clicked*/
+}
+
+#totalCost{
+    margin: 10px; /*sets the id of the total cost of he gas with its margin and height*/
+    padding: 20px;
+}

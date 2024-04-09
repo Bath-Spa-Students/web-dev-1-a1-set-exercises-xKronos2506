@@ -1,0 +1,36 @@
+    <!DOCTYPE html> <!--HTML Declaration-->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="petrol.css">
+        <script src="petrol.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="petrol-calc"> <!--main div for the whole petrol converter-->
+            <header> <!--header tag for the heading (for easier alterations)-->
+                <h1>Petrol Calculator</h1>
+            </header>
+
+            <div class="inner-border"> <!--an inner div (for the calculation css )-->
+                <div class="gas-calc"> <!--price div-->
+                    <label for="price" class="gas_price">Gas Price per Liter (AED)</label>
+                    <input type="number" id="price" min="3.15" max="999999" value="3.15">
+                
+                </div>
+                <p class="equals">=</p> <!--Equals tag (for design )-->
+                <div class="gas-calc"> <!--Liters div-->
+                    <label for="liters" class="gas_liter">Liters</label>
+                    <input type="number" id="liters" min="1" max="99999" value="1">
+                
+                </div>
+            </div>
+            
+            <div class="total-cost"> <!--total cost div (for both the button and the result)-->
+                <button onclick="calculate()">Calculate Amount!</button> <!--button for calculating amount with a js function to excecute the code-->
+                <p id="totalCost"></p> <!--total cost id, to where the result will show with a js id to call upon the instruction-->
+            </div>  
+        </div>
+    </body>
+    </html>
