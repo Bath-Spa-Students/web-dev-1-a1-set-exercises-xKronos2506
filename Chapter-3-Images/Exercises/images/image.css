@@ -45,3 +45,13 @@ h1 {
     margin: 10px; /*gives space outside the header tag*/
        
 }
+
+/*footer css*/
+
+footer{
+    position: absolute; /*to set position as its original position with the following adjustments*/
+    text-align: center; /*centers the text in the middle*/
+    right: 0; /*sets the right side to its default position*/
+    left: 0; /*sets the left as its default position*/
+    bottom: 0; /*sets the bottom as its default position*/
+}

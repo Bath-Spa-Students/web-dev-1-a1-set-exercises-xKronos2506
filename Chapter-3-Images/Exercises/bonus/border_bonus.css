@@ -1,0 +1,61 @@
+/*div adjustments (from bonus exercises)*/
+body {
+  margin: 100px auto; /*centers any following content in the middle throught margin on the top ( margin sequence rule)*/
+  width: max-content; /*displays width to its maximum content within the website*/
+}
+
+div {
+  display: inline-block; /*gives display for the elements to be beside each other within the same line*/
+
+  /*changes the font size and family*/
+  font-family: sans-serif;   
+  font-size: 20px;
+  margin: 25px;/*gives margin to space each div border in all sides*/
+  line-height: 100px; /*gives distance within the in line text*/
+  text-align: center; /*centers any text within the*/
+  
+  /*width and height of the divs*/
+  width: 200px; 
+  height: 300px;
+}
+
+
+
+img {
+  /*adjusts the image width and height accordingly*/
+  width: 200px;
+  height: 300px;
+}
+
+/*div border adjustments*/
+.A {
+  border: 4px solid #8A2AE3;/*gives the following blueviolet border*/
+  box-shadow: 10px 10px 10px 2px red; /*adjusts the shadow according to its shape, opacity and color*/
+}
+.B {
+  border: 4px solid #00FF00; /*gives the following green border*/
+  box-shadow: inset /*makes the shadow to be inside the border instead of outside*/ 10px 10px 10px 2px black;  /*adjusts the shadow according to its shape, opacity and color*/
+  
+}
+
+.C {
+  border: 8px solid #FF8B00; /*gives the following orange border*/
+  box-shadow: 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green;
+  border-radius: 10px; /*provides the overstepping of series of muliple border within the orange border*/
+  
+  
+}
+
+.D {
+  border: 5px solid maroon; /*gives the following border*/
+  text-shadow: 5px 6px 2px; /*gives a text shadow on the following text*/
+}
+
+/*additional css adjustments for the biggie smalls picture (Div B)*/
+
+.biggie {
+  padding: 10px 0 0 10px; /*adjusted the padding to show the inset shadow*/
+  /*adjust the height and width as well to further show the inset shadow*/
+  height: 290px;
+  width: 190px;
+}
