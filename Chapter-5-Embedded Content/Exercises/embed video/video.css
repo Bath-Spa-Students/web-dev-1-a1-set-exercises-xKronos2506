@@ -1,0 +1,15 @@
+body {
+    background-color: black; /*main background color*/
+}
+
+.video {
+    display: flex; /*sets display to flex for custom adjustment*/
+    justify-content: center; /*sets the content at the center vertically*/
+    align-items: center; /*sets the content at the center horizontally*/
+    height: 100vh; /* Optional: Set a height to center vertically */
+}
+
+.video iframe { /*custom adjustment for the video framing*/
+    width: 560px;
+    height: 500px;
+}

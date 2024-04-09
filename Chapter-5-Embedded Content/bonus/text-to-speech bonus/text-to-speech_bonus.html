@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="text-to-speech-bonus.css">
+    <script src="text-to-speech-bonus.js"></script>
+</head>
+<body>
+
+    <header class="title">
+        <h1>Audio Sampler</h1>
+    </header>
+<!--text to speech div (to separate this code block and the soundboard block)-->
+    <div class="tts">
+        <h1>Text-To-Speech</h1>
+        <div> <!--two div blocks to divide the code, one for the input and the other for teh button-->
+            <input type="text" id="text-to-speech" placeholder="Enter
+            text to speak" /> <!--input tag to place text in order to process the text to speech command-->
+        </div>
+            <div>
+                <button type="button"
+            onclick="textToSpeech()">Speak</button> <!--button tag to send instruction to excecute the text to speech commant-->
+            </div>
+    </div>
+
+    <!--first div block for the main content-->
+    <div class="main">
+        <!--sibling div for the container (to group the boxes accordingly using flexbox)-->
+        <div class="container">
+            <!--sounds div to specific groups-->
+            <div class="sounds">
+                <!--Each sound div has a p h3 tag and audio tag for the soundboard-->
+                <p>10.</p>
+                <h3>Ah-ha</h3>
+                <audio src="ah-ha.mp3" class="audio"></audio>
+            </div>
+
+            <div class="sounds">
+                <p>11.</p>
+                <h3>Dan</h3>
+                <audio src="dan.mp3" class="audio"></audio>
+            </div>
+
+            <div class="sounds">
+                <p>12.</p>
+                <h3>Back of the net</h3>
+                <audio src="back-of-the-net.mp3" class="audio"></audio>
+            </div>
+        </div>
+        <!--sibling div for the container (to group the boxes accordingly using flexbox)-->
+        <div class="container">
+            <div class="sounds">
+                <p>13.</p>
+                <h3>Bang out of order</h3>
+                <audio src="bangoutoforder.mp3" class="audio"></audio>
+            </div>
+            <div class="sounds">
+                <p>14.</p>
+                <h3>Email of the Evening</h3>
+                <audio src="emailoftheevening.mp3" class="audio"></audio>
+            </div>
+            <div class="sounds">
+                <p> 15.</p>
+                <h3>I ate a scotch egg</h3>
+                <audio src="iateascotchegg.mp3" class="audio"></audio>
+            </div>
+        </div>
+        <!--sibling div for the container (to group the boxes accordingly using flexbox)-->
+        <div class="container">
+            <div class="sounds">
+                <p>16.</p>
+                <h3>Pierre Bourne Tag</h3>
+                <audio src="yopierreuwannacomeouthere.mp3" class="audio"></audio>
+            </div>
+
+            <div class="sounds">
+                <p>17.</p>
+                <h3>Im Confused</h3>
+                <audio src="imconfused.mp3" class="audio"></audio>
+            </div>
+
+            <div class="sounds">
+                    <p>18.</p>
+                    <h3>Hello Partridge</h3>
+                    <audio src="hellopartridge.mp3" class="audio"></audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    background-image: url(soundboard-bg.jpg); /*background img for the soundboard page*/
+    background-size: cover; /*sets bg img to maintain its aspect ratio and covers the whole background with it. */
+}
+    input {
+        padding: 10px; /*sets the input padding*/
+        width: 300px; /*sets the input widht*/
+        border-radius: 5px; /*gives the edges its round corner*/
+        border: solid 2px #BBB; /*sets the input tag border*/
+        }
+        .tts > div {
+        margin: 10px 0px; /*sets the div on the tts block*/
+        }
+        button {
+        padding: 10px; /*sets the padding*/
+        background-color: #6a67ce; /*sets the button bg*/
+        color: #FFFFFF; /*sets the font color*/
+        border: 0px; /*sets the border to nothing*/
+        cursor: pointer; /*gives a pointer to the cursor if it hovers over it*/
+        border-radius: 5px; /*give its round edges*/
+        }
+
+.tts{
+    float: left; /*sets the div block to the left side of the screen*/
+    display: flex; /*sets display to flex*/
+    justify-content: center; /*places content to center vertically*/
+    flex-direction: column; /*sets flex direction to column*/
+    align-content: center; /*aligns content to center*/
+}
+
+.main{
+    float: right; /*sets the soundboard div blocks to be on the right sidde of the page*/
+}
+
+/*header css*/
+header{
+    text-align: center; /*align text to center horizontally*/
+    color: pink; /*sets text color*/
+}
+
+/*sounds css*/
+.sounds{
+    border: 8px solid white; /*sets border changes*/
+    width: 33.33%; /*adjusts every box width to be proportionate*/
+    margin: 30px; /*sets all margin for each box*/
+    border-radius: 20px; /*gives the border the round edge*/
+    height: 150px; /*sets the box height*/
+    background-color: white; /*sets background color*/
+    font-size: 25px; /*sets font size for each box*/
+}
+
+.sounds:hover{
+    background-color: gray; /*sets bg color if the mouse hovers over the boxes*/
+}
+
+/*container css*/
+.container{
+    display: flex; /*sets display to flex*/
+}
+
+p, h3{
+    text-align: center; /*aligns the text to center*/
+    color: black; /*sets font color*/
+}

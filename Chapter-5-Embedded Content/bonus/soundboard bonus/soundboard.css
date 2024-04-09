@@ -1,0 +1,37 @@
+/*body css*/
+body{
+    background-image: url(soundboard-bg.jpg); /*background img for the soundboard page*/
+    background-size: cover; /*sets bg img to maintain its aspect ratio and covers the whole background with it. */
+}
+
+/*header css*/
+header{
+    text-align: center; /*align text to center horizontally*/
+    color: pink; /*sets text color*/
+}
+
+/*sounds css*/
+.sounds{
+    border: 8px solid white; /*sets border changes*/
+    width: 33.33%; /*adjusts every box width to be proportionate*/
+    margin: 30px; /*sets all margin for each box*/
+    border-radius: 20px; /*gives the border the round edge*/
+    height: 150px; /*sets the box height*/
+    background-color: white; /*sets background color*/
+    font-size: 25px; /*sets font size for each box*/
+}
+
+.sounds:hover{
+    background-color: gray; /*sets bg color if the mouse hovers over the boxes*/
+}
+
+/*container css*/
+.container{
+    display: flex; /*sets display to flex*/
+}
+
+p, h3{
+    text-align: center; /*aligns the text to center*/
+    color: black; /*sets font color*/
+}
+
