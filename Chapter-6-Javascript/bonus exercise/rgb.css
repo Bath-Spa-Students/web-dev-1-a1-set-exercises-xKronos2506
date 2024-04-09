@@ -1,0 +1,102 @@
+/*body css*/
+body{
+    background-color: #625c5c; /*changes bg color*/
+}
+
+/*head css*/
+.head{
+    text-align: center; /*aligns title to center*/
+    background-color: rgba(68, 78, 91, 0.7); /*sets bg color and its opacity*/
+    padding: 3px; /*sets the padding*/
+    margin-top: -1%; /*adjusts the top margin reverse*/
+}
+
+/*h1 tag for heading css*/
+.head h1{
+    color: white; /*sets font color*/
+    font-size: 50px; /*sets font size*/
+    padding: 5px; /*adjusts padding*/
+}
+/*container css*/
+.container{ 
+    display: flex; /*sets display for the container div to flex, in order to automatically adjust the divs*/
+    justify-content: center; /*sets the contents at the center vertically*/
+    align-items: center; /*aligns the content at the center horizontally*/
+}
+
+/*column id css(first priority)*/
+#column{
+    margin-top: -20px;    /*adjust margin to space out between the reset button and the heading*/
+}
+
+/*boxes css*/
+.box{
+    background-color: white; /*sets bg to white if not playing*/
+    border-radius: 15px; /*adjusts border radius (round edges)*/
+    margin: 30px; /*sets margin on all sides within the boxes*/
+    width: 300px; /*adjusts the width and height*/
+    height: 150px;
+    cursor: pointer; /*sets the cursor to pointer when it is hovered over*/
+}
+
+/*box css when it is hovered*/
+.box:hover{
+    background-color: gray; /*sets the bg color to gray when it is hovered*/
+}
+
+
+/*buttons css*/
+.reset-color{
+    position: fixed; /*positions the button to its place*/
+    bottom: 0; /*adjusts the buton to be at the bottom by default*/
+    left: 50%; /*adjusts the button to move to the left*/
+    transform: translateX(-50%); /*more adjustments to align to center*/
+    top: 90%; /*sets the button to the bottom using the top tag*/
+    height: auto; /*automates height*/
+}
+
+button{
+    border: none; /*removes border*/
+    border-radius: 10px; /*adjusts the border radius*/
+    width: 100px; /*adjust width*/
+    height: 35px; /*adjusts height*/
+}
+
+.reset-color button{
+    font-size: 15px; /*font size for the button*/
+    font-weight: 200; /*font weight of the button (for clarity)*/
+
+}
+
+.reset-color button:hover{
+    background-color: gray; /*sets bg color when mouse hovers over the button*/
+}
+/*fonts*/
+
+/*sets a class dedicated to the customised font. Can be placed within any text tags under the following class*/
+.varela-regular {
+    font-family: "Varela", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*id message fonts*/
+#message{
+    margin: 10px 0 10px 0 ; /*sets the message font's margin to adjust*/
+    font-weight: 500; /*adjust font weight to bolden a bit*/
+    font-size: 1em; /*adjust font size*/
+}
+
+#color-display{
+    display: block; /*sets display to block which takes up much space on each side by default*/
+    font-size: 2em; /*adjusts font size to make it big*/
+    margin: -10px 0 5px 0; /*adjusts the following margin to fit within the content under the heading tag*/
+    padding: 10px; /*adjusts padding to give it more room, to make it readable*/
+    font-weight: 550; /*adjusts font weight*/
+}
+
+#color-display, #message{
+    text-align: center; /*centers the texts*/
+    color: white; /*adjusts the font colors to be white*/
+}
+
